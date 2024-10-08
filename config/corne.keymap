@@ -37,10 +37,10 @@
 //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
                         display-name = "NUMPAD";
                         bindings = <
-   &kp(N1) &kp(N2) &kp(N3) &kp(N4) &kp(N5)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
-   &kp(N6) &kp(N7) &kp(N8) &kp(N9) &kp(N0)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
-   &kp(DOT) &kp(UP) &kp(LEFT) &kp(RIGHT) &kp(DOWN)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp BSPC &mo 1 &kp (RET)     AS(RET) &mo 2  &kp BSPC
+   &kp(N1)  &kp(N2) &kp(N3)    &kp(N4)     &kp(N5)             AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
+   &kp(N6)  &kp(N7) &kp(N8)    &kp(N9)     &kp(N0)             AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
+   &kp(DOT) &kp(UP) &kp(LEFT)  &kp(RIGHT)  &kp(DOWN)           AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
+                    &kp (BSPC) &mo (1)     &kp(RET)            AS(RET) &mo 2  &kp BSPC
                         >;
                 };
 

@@ -35,12 +35,12 @@
 // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K   |  L   | ' | 
 // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
 //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
-                        display-name = "Base";
+                        display-name = "NUMPAD";
                         bindings = <
-   AS(Q) AS(W) AS(E) AS(R) AS(T)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
-   AS(A) AS(S) AS(D) AS(F) AS(G)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
-   AS(Z) AS(X) AS(C) AS(V) AS(B)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp LGUI &mo 1 &kp SPACE     AS(RET) &mo 2  &kp BSPC
+   &kp(N0) &kp(N7) &kp(N4) &kp(N1) &kp(PLUS)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
+   &kp(EQUAL) &kp(N8) &kp(N5) &kp(N2) &kp(MINUS)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
+   &kp(RET) &kp(N9) &kp(N6) &kp(N3) &kp(KP_MULTIPLY)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
+        &kp BSPC &kp ESC &kp (FSLH)     AS(RET) &mo 2  &kp BSPC
                         >;
                 };
 

@@ -38,9 +38,9 @@
                         display-name = "NUMPAD";
                         bindings = <
    &kp(N0) &kp(N7) &kp(N4) &kp(N1) &kp(PLUS)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
-   &kp(EQUAL) &kp(N8) &kp(N5) &kp(N2) &kp(MINUS)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
+   &kp(DOT) &kp(N8) &kp(N5) &kp(N2) &kp(MINUS)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
    &kp(RET) &kp(N9) &kp(N6) &kp(N3) &kp(KP_MULTIPLY)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp BSPC &kp ESC &kp (FSLH)     AS(RET) &mo 2  &kp BSPC
+        &kp BSPC &kp (EQUAL) &kp (FSLH)     AS(RET) &mo 2  &kp BSPC
                         >;
                 };
 

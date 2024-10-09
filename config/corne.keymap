@@ -1,3 +1,4 @@
+@ -1,79 +1,79 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -37,10 +38,12 @@
 //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
                         display-name = "Base";
                         bindings = <
+   &kp(N1)  &kp(N2) &kp(N3)    &kp(N4)     &kp(N5)             AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
+   &kp(N6)  &kp(N7) &kp(N8)    &kp(N9)     &kp(N0)             AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
    AS(N1)    AS(N2)    AS(N3)    AS(N4)    AS(N5)             AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
    AS(N6)    AS(N7)    AS(N8)    AS(N9)   AS(N0)             AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
    &kp(DOT) &kp(UP) &kp(LEFT)  &kp(RIGHT)  &kp(DOWN)           AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-                    &kp (RET) &mo (1)     &mo 2            AS(RET) &mo 2  &kp BSPC
+                    &kp (BSPC) &mo (1)     &kp(RET)            AS(RET) &mo 2  &kp BSPC
                         >;
                 };
 
@@ -55,7 +58,7 @@
     &kp (F1)     &kp (F2)       &kp (F3)     &kp (F4)     &kp (F5)        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
    &kp (F6) &kp (F7) &kp (F8) &kp (F9) &kp (F10)     &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &trans 
    &kp (EQUAL) &kp (FSLH) &kp(KP_MULTIPLY) &kp(MINUS) &kp(PLUS)           &trans    &trans    &trans          &trans    &trans 
-                                &kp(BSPC)     &trans       &kp(SPACE)       AS(RET)   &kp ESC   &kp TAB
+                                &kp(ESC)     &trans       &kp (RET)       AS(RET)   &kp ESC   &kp TAB
                         >;
                 };
 

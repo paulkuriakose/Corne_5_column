@@ -40,7 +40,7 @@
    AS(N1)    AS(N2)    AS(N3)    AS(N4)    AS(N5)             AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
    AS(N6)    AS(N7)    AS(N8)    AS(N9)   AS(N0)             AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
    &kp(DOT) &kp(UP) &kp(LEFT)  &kp(RIGHT)  &kp(DOWN)           AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-                    &kp (BSPC) &mo (1)     &kp(RET)            AS(RET) &mo 2  &kp BSPC
+                    &kp (RET) &mo (1)     &mo 2            AS(RET) &mo 2  &kp BSPC
                         >;
                 };
 
@@ -55,7 +55,7 @@
     &kp (F1)     &kp (F2)       &kp (F3)     &kp (F4)     &kp (F5)        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
    &kp (F6) &kp (F7) &kp (F8) &kp (F9) &kp (F10)     &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &trans 
    &kp (EQUAL) &kp (FSLH) &kp(KP_MULTIPLY) &kp(MINUS) &kp(PLUS)           &trans    &trans    &trans          &trans    &trans 
-                                &kp(ESC)     &trans       &kp (RET)       AS(RET)   &kp ESC   &kp TAB
+                                &kp(BSPC)     &trans       &kp(SPACE)       AS(RET)   &kp ESC   &kp TAB
                         >;
                 };
 
@@ -68,7 +68,7 @@
                         display-name = "Raise";
                         bindings = <
 
-   AS(N1)    AS(N2)    AS(N3)    AS(N4)    AS(N5)        AS(N6)    AS(N7)    AS(N8)    AS(N9)   AS(N0)
+   &kp(c_mute)    AS(N2)    AS(N3)    AS(N4)    AS(N5)        AS(N6)    AS(N7)    AS(N8)    AS(N9)   AS(N0)
    AS(MINUS) AS(EQUAL) &kp LBRC  &kp LBKT  &kp LPAR      &kp RPAR  &kp RBKT  &kp RBRC  AS(FSLH) AS(BSLH)
    AS(GRAVE) &trans    &trans    AS(COMMA) &kp COLON     &kp SEMI  AS(DOT)   &kp LCTRL &kp RALT &trans
                        &kp LGUI  &kp ESC   &kp SPACE     AS(RET)   &trans    &kp TAB
